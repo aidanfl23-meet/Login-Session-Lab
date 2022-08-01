@@ -7,8 +7,17 @@
 </head>
 <body>
 
-<!-- Display the variables from the login session here!
- -->
+<h1> Here is your data! </h1>
+
+{% for i in logi %}
+
+	<h2> 
+		{{ logi[i] }}
+	 </h2>
+
+{% endfor %}
+
+
 
 </body>
 </html>
